@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.assignment1.MainActivity">
+    <item
+        android:id="@+id/addFriend"
+        android:orderInCategory="100"
+        android:title="Add friend record"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/editFriend"
+        android:orderInCategory="100"
+        android:title="Edit friend record"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addTask"
+        android:orderInCategory="100"
+        android:title="Add to-do-task"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewTasks"
+        android:orderInCategory="100"
+        android:title="View all tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/addEvent"
+        android:orderInCategory="100"
+        android:title="Add event"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/viewEvents"
+        android:orderInCategory="100"
+        android:title="View all events"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/deleteMultipleEvents"
+        android:orderInCategory="100"
+        android:title="Delete Multiple Events"
+        app:showAsAction="never" />-->
+<!--    <item android:title="Clear Table "  android:orderInCategory="100" android:id="@+id/remove_rows"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+-->
+</menu>
